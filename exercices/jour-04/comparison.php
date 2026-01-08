@@ -26,6 +26,7 @@ var_dump ($a === $e); // bool (false)
 
 /*
 Dans quel cas == donne un résultat inattendu ?
-$a == $c, $d, $e car le résultat de la valeur est true alors qu'avec === le résultat est faux alors plus fible d'utiliser ===
+$a == $c, $d, $e car le résultat de la valeur est true alors qu'avec === le résultat est faux,
+alors plus fiable d'utiliser === car vérifie la valeur et le type.
 */
 ?>
