@@ -41,9 +41,9 @@ function canOrder($stock, $quantity){
     }
 }
 
-echo "Is in stock :" .isInStock(125);
-echo "<br> Is on sale :". isOnSale(10);
-echo "<br> Is new :". isNew("2025-12-15");
+echo "Is in stock : " .isInStock(125);
+echo "<br> Is on sale : ". isOnSale(10);
+echo "<br> Is new : ". isNew("2025-12-15");
 echo "<br> Can order : ". canOrder(500, 50);
 
 ?>
