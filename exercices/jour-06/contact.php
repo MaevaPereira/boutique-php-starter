@@ -23,7 +23,7 @@ else{
 
 //Message minimum 10 caractères
 if (strlen($message) <= 10) {
-    $error = "<br>charactères inférieur à 10";
+    $error = "<br>caractères inférieur à 10";
     echo $error;
 }
 else{
@@ -41,7 +41,7 @@ else{
 <body>
     
 <form method="POST">
-    
+
     <?= 'Name : '?> 
     <input type="text" name="name" >
 
