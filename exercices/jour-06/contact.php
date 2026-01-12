@@ -22,7 +22,6 @@ else{
 }   
 
 //Message minimum 10 caractères
-
 if (strlen($message) <= 10) {
     $error = "<br>charactères inférieur à 10";
     echo $error;
