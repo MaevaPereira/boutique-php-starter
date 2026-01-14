@@ -8,7 +8,7 @@ if(isset ($_GET["reset"])){
 
 //compteur de visite
 if (!isset($_SESSION['visits'])) {
-  $_SESSION['visits'] = 0;
+  $_SESSION['visits'] = 1;
 } else {
   $_SESSION['visits']++;
  
