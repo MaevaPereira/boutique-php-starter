@@ -8,7 +8,7 @@ $password = $_POST["password"]?? "";
 if ($username === "admin" && $password === "1234"){
     $_SESSION["user"] = "admin";
     header("Location: dashboard.php");
-    exit();
+    exit;
 }
 else{
     $error = "Identifiants incorrects";
