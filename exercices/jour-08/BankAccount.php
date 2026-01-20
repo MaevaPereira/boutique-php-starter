@@ -21,12 +21,14 @@ class BankAccount{
         if($amount > 0 && $amount <= $this->balance){   
             $this->balance -= $amount;
         }
+       else{ 
         echo "Aucun montant négatif autorisé";
+       }
     }
 }
 
 $account = new BankAccount(0);
-$account-> deposit(10);
+$account-> deposit(20);
 $account-> withdraw(100);
 
 ?>
