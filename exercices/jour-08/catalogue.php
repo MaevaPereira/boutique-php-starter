@@ -1,6 +1,5 @@
 <?php class Product
 {
-
     function __construct(
         public string $nom,
         public string $description,
@@ -8,20 +7,8 @@
         public int  $prix,
         public int $stock,
     ) {}
-
-
-    //Stock
-    public function isInStock()
-    {
-        if ($this->stock > 0) {
-            return "true";
-        } else {
-            return "false";
-        }
-    }
-    // le total du stock 
-
 }
+
 $product = [
     new Product("TV", "65pouces", "éléctronique", 100, 10),
     new Product("PS5", "1To", "jeux-vidéo", 100, 2),
